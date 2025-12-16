@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Единицы измерения и конвертеры</title>
+    
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Reveal.js plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/zoom/zoom.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/atom-one-dark.min.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Слайд 1: Титульный -->
+            <section>
+                <h1>Единицы измерения</h1>
+                <h2>и их конвертация</h2>
+                <p>Презентация по теме физических величин</p>
+                <p><small>Используйте стрелки для навигации</small></p>
+            </section>
+
+            <!-- Слайд 2: Меню -->
+            <section>
+                <h2>Меню презентации</h2>
+                <div class="menu-grid">
+                    <a href="#/3" class="menu-item">📏 Единицы длины</a>
+                    <a href="#/5" class="menu-item">⚖️ Единицы массы</a>
+                    <a href="#/7" class="menu-item">🌡️ Единицы температуры</a>
+                    <a href="#/9" class="menu-item">🚀 Единицы скорости</a>
+                    <a href="#/11" class="menu-item">📐 Единицы площади</a>
+                    <a href="#/13" class="menu-item">🧪 Единицы объема</a>
+                    <a href="#/15" class="menu-item">⚡ Единицы давления</a>
+                    <a href="#/17" class="menu-item">🔄 Конвертер величин</a>
+                    <a href="#/19" class="menu-item">📊 Задачи на скорость</a>
+                    <a href="#/21" class="menu-item">🎯 Калькулятор скорости</a>
+                    <a href="#/23" class="menu-item">😊 Веселые картинки</a>
+                </div>
+            </section>
+
+            <!-- РАЗДЕЛ: ДЛИНА -->
+            <section data-transition="zoom">
+                <h1>📏</h1>
+                <h2>Единицы длины</h2>
+            </section>
+
+            <section>
+                <h2>Единицы измерения длины</h2>
+                <ul>
+                    <li><strong>Метрическая система:</strong>
+                        <ul>
+                            <li>Миллиметр (мм) - 0.001 м</li>
+                            <li>Сантиметр (см) - 0.01 м</li>
+                            <li>Дециметр (дм) - 0.1 м</li>
+                            <li>Метр (м) - основная единица</li>
+                            <li>Километр (км) - 1000 м</li>
+                        </ul>
+                    </li>
+                    <li><strong>Имперская система:</strong>
+                        <ul>
+                            <li>Дюйм (inch) - 2.54 см</li>
+                            <li>Фут (foot) - 30.48 см</li>
+                            <li>Ярд (yard) - 91.44 см</li>
+                            <li>Мили (mile) - 1609.34 м</li>
+                            <li>Морская миля - 1852 м</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- РАЗДЕЛ: МАССА -->
+            <section data-transition="zoom">
+                <h1>⚖️</h1>
+                <h2>Единицы массы</h2>
+            </section>
+
+            <section>
+                <h2>Единицы измерения массы</h2>
+                <ul>
+                    <li><strong>Метрическая система:</strong>
+                        <ul>
+                            <li>Миллиграмм (мг) - 0.001 г</li>
+                            <li>Грамм (г) - основная единица</li>
+                            <li>Килограмм (кг) - 1000 г</li>
+                            <li>Тонна (т) - 1000 кг</li>
+                            <li>Центнер (ц) - 100 кг</li>
+                        </ul>
+                    </li>
+                    <li><strong>Имперская система:</strong>
+                        <ul>
+                            <li>Унция (oz) - 28.35 г</li>
+                            <li>Фунт (lb) - 453.59 г</li>
+                            <li>Стоун (stone) - 6.35 кг</li>
+                            <li>Короткая тонна - 907.185 кг</li>
+                            <li>Длинная тонна - 1016.05 кг</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- РАЗДЕЛ: ТЕМПЕРАТУРА -->
+            <section data-transition="zoom">
+                <h1>🌡️</h1>
+                <h2>Единицы температуры</h2>
+            </section>
+
+            <section>
+                <h2>Шкалы температуры</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Шкала</th>
+                            <th>Единица</th>
+                            <th>Обозначение</th>
+                            <th>Абсолютный ноль</th>
+                            <th>Точка кипения воды</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Цельсий</td>
+                            <td>Градус Цельсия</td>
+                            <td>°C</td>
+                            <td>-273.15°C</td>
+                            <td>100°C</td>
+                        </tr>
+                        <tr>
+                            <td>Фаренгейт</td>
+                            <td>Градус Фаренгейта</td>
+                            <td>°F</td>
+                            <td>-459.67°F</td>
+                            <td>212°F</td>
+                        </tr>
+                        <tr>
+                            <td>Кельвин</td>
+                            <td>Кельвин</td>
+                            <td>K</td>
+                            <td>0K</td>
+                            <td>373.15K</td>
+                        </tr>
+                        <tr>
+                            <td>Реомюр</td>
+                            <td>Градус Реомюра</td>
+                            <td>°R</td>
+                            <td>-218.52°R</td>
+                            <td>80°R</td>
+                        </tr>
+                        <tr>
+                            <td>Ранкин</td>
+                            <td>Градус Ранкина</td>
+                            <td>°Ra</td>
+                            <td>0°Ra</td>
+                            <td>671.67°Ra</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- РАЗДЕЛ: СКОРОСТЬ -->
+            <section data-transition="zoom">
+                <h1>🚀</h1>
+                <h2>Единицы скорости</h2>
+            </section>
+
+            <section>
+                <h2>Единицы измерения скорости</h2>
+                <div class="two-columns">
+                    <div>
+                        <h3>Метрические:</h3>
+                        <ul>
+                            <li>Метр в секунду (м/с)</li>
+                            <li>Километр в час (км/ч)</li>
+                            <li>Сантиметр в секунду (см/с)</li>
+                            <li>Километр в секунду (км/с)</li>
+                            <li>Узел (морской) - 1.852 км/ч</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Имперские:</h3>
+                        <ul>
+                            <li>Мили в час (mph)</li>
+                            <li>Футы в секунду (fps)</li>
+                            <li>Ярды в секунду (yps)</li>
+                            <li>Морской узел (knot)</li>
+                            <li>Мах (скорость звука)</li>
+                        </ul>
+                    </div>
+                </div>
+                <p><strong>Применение:</strong> транспорт, физика, спорт, авиация</p>
+            </section>
+
+            <!-- РАЗДЕЛ: ПЛОЩАДЬ -->
+            <section data-transition="zoom">
+                <h1>📐</h1>
+                <h2>Единицы площади</h2>
+            </section>
+
+            <section>
+                <h2>Единицы измерения площади</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Единица</th>
+                            <th>Обозначение</th>
+                            <th>В квадратных метрах</th>
+                            <th>Применение</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Квадратный мм</td><td>мм²</td><td>0.000001 м²</td><td>Микроэлектроника</td></tr>
+                        <tr><td>Квадратный см</td><td>см²</td><td>0.0001 м²</td><td>Школьные задачи</td></tr>
+                        <tr><td>Квадратный метр</td><td>м²</td><td>1 м²</td><td>Строительство</td></tr>
+                        <tr><td>Ар (сотка)</td><td>а</td><td>100 м²</td><td>Земельные участки</td></tr>
+                        <tr><td>Гектар</td><td>га</td><td>10,000 м²</td><td>Сельское хозяйство</td></tr>
+                        <tr><td>Квадратный км</td><td>км²</td><td>1,000,000 м²</td><td>География</td></tr>
+                        <tr><td>Акр</td><td>ac</td><td>4046.86 м²</td><td>США, Англия</td></tr>
+                        <tr><td>Квадратная миля</td><td>mi²</td><td>2,589,988 м²</td><td>Картография</td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- РАЗДЕЛ: ОБЪЕМ -->
+            <section data-transition="zoom">
+                <h1>🧪</h1>
+                <h2>Единицы объема</h2>
+            </section>
+
+            <section>
+                <h2>Единицы измерения объема</h2>
+                <div class="two-columns">
+                    <div>
+                        <h3>Метрические:</h3>
+                        <ul>
+                            <li>Кубический мм (мм³)</li>
+                            <li>Кубический см (см³)</li>
+                            <li>Литр (л) = 1000 см³</li>
+                            <li>Кубический метр (м³)</li>
+                            <li>Гектолитр (гл)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Имперские:</h3>
+                        <ul>
+                            <li>Кубический дюйм (in³)</li>
+                            <li>Кубический фут (ft³)</li>
+                            <li>Жидкая унция (fl oz)</li>
+                            <li>Пинта (pt)</li>
+                            <li>Галлон (gal)</li>
+                        </ul>
+                    </div>
+                </div>
+                <p><strong>Применение:</strong> химия, кулинария, строительство, логистика</p>
+            </section>
+
+            <!-- РАЗДЕЛ: ДАВЛЕНИЕ -->
+            <section data-transition="zoom">
+                <h1>⚡</h1>
+                <h2>Единицы давления</h2>
+            </section>
+
+            <section>
+                <h2>Единицы измерения давления</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Единица</th>
+                            <th>Обозначение</th>
+                            <th>В паскалях</th>
+                            <th>Применение</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Паскаль</td><td>Па</td><td>1 Па</td><td>Наука</td></tr>
+                        <tr><td>Гектопаскаль</td><td>гПа</td><td>100 Па</td><td>Метеорология</td></tr>
+                        <tr><td>Килопаскаль</td><td>кПа</td><td>1000 Па</td><td>Техника</td></tr>
+                        <tr><td>Бар</td><td>бар</td><td>100,000 Па</td><td>Промышленность</td></tr>
+                        <tr><td>Атмосфера</td><td>атм</td><td>101,325 Па</td><td>Физика</td></tr>
+                        <tr><td>Миллиметр рт.ст.</td><td>мм рт.ст.</td><td>133.322 Па</td><td>Медицина</td></tr>
+                        <tr><td>Фунт-сила на кв.дюйм</td><td>psi</td><td>6894.76 Па</td><td>США, авто</td></tr>
+                        <tr><td>Техническая атмосфера</td><td>ат</td><td>98,066.5 Па</td><td>СССР</td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- РАЗДЕЛ: КОНВЕРТЕР -->
+            <section data-transition="zoom">
+                <h1>🔄</h1>
+                <h2>Конвертер величин</h2>
+            </section>
+
+            <section>
+                <h2>Конвертер единиц измерения</h2>
+                <div class="converter-container">
+                    <div class="converter-box">
+                        <h3>Температура</h3>
+                        <input type="number" id="tempInput" placeholder="Введите значение">
+                        <select id="tempFrom">
+                            <option value="celsius">°C (Цельсий)</option>
+                            <option value="fahrenheit">°F (Фаренгейт)</option>
+                            <option value="kelvin">K (Кельвин)</option>
+                        </select>
+                        <span>→</span>
+                        <select id="tempTo">
+                            <option value="fahrenheit">°F (Фаренгейт)</option>
+                            <option value="celsius">°C (Цельсий)</option>
+                            <option value="kelvin">K (Кельвин)</option>
+                        </select>
+                        <button onclick="convertTemperature()">Конвертировать</button>
+                        <p id="tempResult"></p>
+                    </div>
+
+                    <div class="converter-box">
+                        <h3>Длина</h3>
+                        <input type="number" id="lengthInput" placeholder="Введите значение">
+                        <select id="lengthFrom">
+                            <option value="meter">Метры (м)</option>
+                            <option value="kilometer">Километры (км)</option>
+                            <option value="centimeter">Сантиметры (см)</option>
+                            <option value="inch">Дюймы (in)</option>
+                            <option value="foot">Футы (ft)</option>
+                        </select>
+                        <span>→</span>
+                        <select id="lengthTo">
+                            <option value="kilometer">Километры (км)</option>
+                            <option value="meter">Метры (м)</option>
+                            <option value="centimeter">Сантиметры (см)</option>
+                            <option value="inch">Дюймы (in)</option>
+                            <option value="foot">Футы (ft)</option>
+                        </select>
+                        <button onclick="convertLength()">Конвертировать</button>
+                        <p id="lengthResult"></p>
+                    </div>
+
+                    <div class="converter-box">
+                        <h3>Масса</h3>
+                        <input type="number" id="massInput" placeholder="Введите значение">
+                        <select id="massFrom">
+                            <option value="kilogram">Килограммы (кг)</option>
+                            <option value="gram">Граммы (г)</option>
+                            <option value="ton">Тонны (т)</option>
+                            <option value="pound">Фунты (lb)</option>
+                        </select>
+                        <span>→</span>
+                        <select id="massTo">
+                            <option value="gram">Граммы (г)</option>
+                            <option value="kilogram">Килограммы (кг)</option>
+                            <option value="ton">Тонны (т)</option>
+                            <option value="pound">Фунты (lb)</option>
+                        </select>
+                        <button onclick="convertMass()">Конвертировать</button>
+                        <p id="massResult"></p>
+                    </div>
+
+                    <div class="converter-box">
+                        <h3>Скорость</h3>
+                        <input type="number" id="speedInput" placeholder="Введите значение">
+                        <select id="speedFrom">
+                            <option value="kmh">км/ч</option>
+                            <option value="ms">м/с</option>
+                            <option value="mph">mph</option>
+                            <option value="knot">Узлы</option>
+                        </select>
+                        <span>→</span>
+                        <select id="speedTo">
+                            <option value="ms">м/с</option>
+                            <option value="kmh">км/ч</option>
+                            <option value="mph">mph</option>
+                            <option value="knot">Узлы</option>
+                        </select>
+                        <button onclick="convertSpeed()">Конвертировать</button>
+                        <p id="speedResult"></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- РАЗДЕЛ: ЗАДАЧИ -->
+            <section data-transition="zoom">
+                <h1>📊</h1>
+                <h2>Задачи на скорость</h2>
+            </section>
+
+            <section>
+                <h2>Задачи на скорость, время и расстояние</h2>
+                <div class="task-example">
+                    <h3>Формулы:</h3>
+                    <ul>
+                        <li>Расстояние = Скорость × Время</li>
+                        <li>Скорость = Расстояние ÷ Время</li>
+                        <li>Время = Расстояние ÷ Скорость</li>
+                    </ul>
+                    
+                    <h3>Пример 1:</h3>
+                    <p>Автомобиль ехал со скоростью 60 км/ч в течение 2.5 часов. Какое расстояние он проехал?</p>
+                    <p><strong>Решение:</strong> S = v × t = 60 × 2.5 = 150 км</p>
+                    
+                    <h3>Пример 2:</h3>
+                    <p>Велосипедист проехал 30 км за 1.5 часа. Какова его скорость?</p>
+                    <p><strong>Решение:</strong> v = S ÷ t = 30 ÷ 1.5 = 20 км/ч</p>
+                    
+                    <h3>Пример 3:</h3>
+                    <p>Поезд проехал 240 км со скоростью 80 км/ч. Сколько времени он был в пути?</p>
+                    <p><strong>Решение:</strong> t = S ÷ v = 240 ÷ 80 = 3 часа</p>
+                </div>
+            </section>
+
+            <!-- РАЗДЕЛ: КАЛЬКУЛЯТОР -->
+            <section data-transition="zoom">
+                <h1>🎯</h1>
+                <h2>Калькулятор скорости</h2>
+            </section>
+
+            <section>
+                <h2>Калькулятор скорости, времени и расстояния</h2>
+                <div class="calculator-container">
+                    <p>Заполните ДВА поля, чтобы вычислить третье:</p>
+                    
+                    <div class="input-group">
+                        <label for="speed">Скорость (км/ч):</label>
+                        <input type="number" id="speed" placeholder="Введите скорость">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="time">Время (часы):</label>
+                        <input type="number" id="time" placeholder="Введите время">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="distance">Расстояние (км):</label>
+                        <input type="number" id="distance" placeholder="Введите расстояние">
+                    </div>
+                    
+                    <button onclick="calculateMissingValue()">Вычислить</button>
+                    <button onclick="clearCalculator()">Очистить</button>
+                    
+                    <div id="calculationResult" class="result-box"></div>
+                    
+                    <div class="formula-display">
+                        <p>Используемые формулы:</p>
+                        <ul>
+                            <li>Скорость = Расстояние / Время</li>
+                            <li>Время = Расстояние / Скорость</li>
+                            <li>Расстояние = Скорость × Время</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- РАЗДЕЛ: КАРТИНКИ -->
+            <section data-transition="zoom">
+                <h1>😊</h1>
+                <h2>Веселые картинки</h2>
+            </section>
+
+            <section>
+                <h2>Физика бывает веселой! 😄</h2>
+                <div class="fun-images">
+                    <img src="https://via.placeholder.com/300x200/4CAF50/FFFFFF?text=Физика+это+весело" alt="Веселая физика 1">
+                    <img src="https://via.placeholder.com/300x200/2196F3/FFFFFF?text=Единицы+измерения" alt="Веселая физика 2">
+                    <img src="https://via.placeholder.com/300x200/FF9800/FFFFFF?text=Конвертация" alt="Веселая физика 3">
+                </div>
+                <p class="fun-quote">"Физика - это когда сложное становится понятным, а понятное - интересным!"</p>
+            </section>
+
+            <section>
+                <h2>Еще немного юмора ✨</h2>
+                <div class="fun-content">
+                    <div class="joke">
+                        <h3>Физик шутит:</h3>
+                        <p>- Почему физики такие плохие любовники?</p>
+                        <p>- Потому что они всегда думают о постоянных!</p>
+                    </div>
+                    <div class="meme">
+                        <h3>Мем дня:</h3>
+                        <p>Когда пытаешься объяснить разницу между массой и весом...</p>
+                        <p><strong>Масса:</strong> "Я всегда остаюсь собой"</p>
+                        <p><strong>Вес:</strong> "Зависит от обстоятельств"</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Конец презентации! 🎉</h2>
+                <div class="final-slide">
+                    <h3>Спасибо за внимание!</h3>
+                    <p>Надеюсь, вам было интересно изучать единицы измерения</p>
+                    <div class="contact-info">
+                        <p>Для вопросов и предложений:</p>
+                        <p>✉️ example@email.com</p>
+                        <p>🌐 www.example.com</p>
+                    </div>
+                    <div class="credits">
+                        <p>Презентация создана с использованием Reveal.js</p>
+                        <p>Все примеры кода доступны в репозитории</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Исходный код программ -->
+    <script src="converter.js"></script>
+    <script src="speed-calculator.js"></script>
+    
+    <!-- Инициализация Reveal.js -->
+    <script>
+        Reveal.initialize({
+            hash: true,
+            plugins: [RevealMarkdown, RevealHighlight, RevealZoom],
+            transition: 'slide',
+            slideNumber: 'c/t',
+            showNotes: false,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 2.0,
+            controls: true,
+            progress: true,
+            center: true,
+            loop: false
+        });
+    </script>
+</body>
+</html>
